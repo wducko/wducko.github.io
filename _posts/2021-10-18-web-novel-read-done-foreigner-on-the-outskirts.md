@@ -1,12 +1,12 @@
 ---
 layout: post
 title: ! "변방의 외노자 다 읽었다."
-categories: [novel]
+categories: [웹소설]
 excerpt: " "
 comments: false
 share: false
 tags:
-  - novel
+  - 웹소설
 date: '2021-10-18 04:48:13'
 ---
 
