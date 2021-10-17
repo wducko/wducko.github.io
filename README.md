@@ -39,3 +39,8 @@ jekyll serve
 
 ## bundle install error 시 - mac
 xcode 설치 해야함.
+
+## run - win
+1. `Start Command Prompt with Ruby` 실행
+2. `cd C:\wducko\wducko.github.io`
+3. `bundle exec jekyll serve`
