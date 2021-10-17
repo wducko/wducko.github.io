@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! "[잡담] ffa 소스코드 (+ 오게임하고 싶었다..)"
+title: ! "ffa 소스코드 (+ 오게임하고 싶었다..)"
 categories: [잡담]
 excerpt: " "
 comments: false
@@ -9,6 +9,7 @@ tags:
   - ffa
   - webgame
   - 잡담
+date: '2021-10-17 23:42:39'
 ---
 
 [FFA Classic v0.54 소스코드 다운로드](https://wducko.github.io/files/ffa_classic_for_mac-master.zip)  
