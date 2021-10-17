@@ -44,3 +44,8 @@ xcode 설치 해야함.
 1. `Start Command Prompt with Ruby` 실행
 2. `cd C:\wducko\wducko.github.io`
 3. `bundle exec jekyll serve`
+
+## posting - win
+1. posting..
+2. cmd 오픈
+3. p "\<commit message\>"
