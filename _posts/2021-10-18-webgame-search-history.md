@@ -24,6 +24,15 @@ pill1229 님 사이트 <상인이야기, 베네치아, 상정제도, 말가르�
 4. [https://judomst.net/mst/index.cgi?mode=mstinit](https://judomst.net/mst/index.cgi?mode=mstinit)  
 쥬도의 MS Tactics
 
+5. [https://plunder.kr/p_alpha/](https://plunder.kr/p_alpha/)  
+오게임 사설 서버
+
+6. SuperNova (x1): [http://supernova.ws](http://supernova.ws)  
+oGame (x2): [http://ogame.supernova.ws](http://ogame.supernova.ws)  
+Beta (x50): [http://beta.supernova.ws](http://beta.supernova.ws)  
+오게임 사설 서버
+`아래 "소스코드-6" 에 github 코드 있음.`
+
 ## 소스코드
 1. ms tactics 코드 [https://cafe.naver.com/itswebgame/943](https://cafe.naver.com/itswebgame/943)  
 ms tactics 사용법 [https://cafe.naver.com/itswebgame/1415](https://cafe.naver.com/itswebgame/1415)
@@ -31,6 +40,14 @@ ms tactics 사용법 [https://cafe.naver.com/itswebgame/1415](https://cafe.naver
 2. FFA Classic v0.54 소스코드 [https://github.com/ttakuru88/ffa_classic_for_mac](https://github.com/ttakuru88/ffa_classic_for_mac)
 
 3. ffa v1.00 소스코드 [https://github.com/timomo/ffadventure](https://github.com/timomo/ffadventure)
+
+4. 부족전쟁. `실행 안해봄.` clone. [https://github.com/laserswald/Tribal-Wars-Open-Source](https://github.com/laserswald/Tribal-Wars-Open-Source)
+
+5. 오게임. `실행 실패(이유 까먹음)` 2010년전 버전 clone. 자바사용. postgres. docker 사용. [https://github.com/retro-game/retro-game](https://github.com/retro-game/retro-game)
+
+6. 오게임. `실행 실패(DB 생성까지 했으나 게임실행이 안 됨)` [https://github.com/supernova-ws/SuperNova](https://github.com/supernova-ws/SuperNova)
+
+7. 오게임. `실행 실패(DB 생성부터 안 됨)` [https://github.com/ogamespec/ogame-opensource](https://github.com/ogamespec/ogame-opensource)
 
 ## wiki
 1. ffa wiki 내용 [https://ko.wikipedia.org/wiki/FF_ADVENTURE](https://ko.wikipedia.org/wiki/FF_ADVENTURE)  
