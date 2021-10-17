@@ -61,16 +61,18 @@
     border: 5px solid $gray-lighter;
   }
 
-  p a:not(.fancybox) {
-    color: white;
-    background: #666;
-    padding: 3px;
-    text-decoration: underline;
-  }
-
-  p a:hover:not(.fancybox) {
-    color: #222;
-    border-bottom-color: #222;
+  p, ol {
+    a:not(.fancybox) {
+      color: white;
+      background: #666;
+      padding: 3px;
+      text-decoration: underline;
+    }
+  
+    a:hover:not(.fancybox) {
+      color: #222;
+      border-bottom-color: #222;
+    }
   }
 }
 
