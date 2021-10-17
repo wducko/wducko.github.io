@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! "[Webhacking.kr] 4"
+title: ! "4"
 categories: [Webhacking.kr]
 excerpt: " "
 comments: false
@@ -9,6 +9,7 @@ tags:
   - Web-hacking
   - webhacking.kr
   - write-up
+date: '2021-10-18 04:48:13'
 ---
 
 ## 이미지 삽입
