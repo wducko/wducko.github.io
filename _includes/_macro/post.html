@@ -51,7 +51,7 @@
                 <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
                 {{ post.title | default: __.post.untitled }}
               </a>
-            {% else %}{{ post.title }}{% endif %}
+            {% else %}<div class="inner-title">{{ page.title }}</div>{% endif %}
           {% endif %}
         </{% if site.seo %}h2{% else %}h1{% endif %}>
         {% endunless %}
