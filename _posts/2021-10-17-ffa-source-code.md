@@ -11,8 +11,8 @@ tags:
   - 잡담
 ---
 
-[소스코드 다운로드](https://wducko.github.io/files/ffa_classic_for_mac-master.zip)  
-[소스코드 github 링크](https://github.com/ttakuru88/ffa_classic_for_mac)  
+[FFA Classic v0.54 소스코드 다운로드](https://wducko.github.io/files/ffa_classic_for_mac-master.zip)  
+[소스코드 github](https://github.com/ttakuru88/ffa_classic_for_mac)  
 
 
 ## 갑자기 오게임에 꽂혀서..
