@@ -18,7 +18,7 @@ date: '2021-10-18 18:53:44'
 ## 버튼 클릭클릭
 
 <div id="password_creator_field"></div>
-<div id="password_creator_btn" class="btn" style="cursor: pointer;" onclick="password_creator_click()">이 버튼을 눌러보세요.</div>
+<div id="password_creator_btn" class="btn" style="cursor: pointer;-ms-user-select: none;-moz-user-select: -moz-none;-khtml-user-select: none;-webkit-user-select: none;user-select: none;" onclick="password_creator_click()">이 버튼을 눌러보세요.</div>
 <script type="text/javascript" src="/assets/posts/idletalk/password-creator.js"></script>
 <script type="text/javascript">
   var password_creator_click = function (e) {
