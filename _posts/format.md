@@ -1,15 +1,13 @@
 ---
 layout: post
 title: ! "4"
-categories: [Webhacking.kr]
+categories: [잡담]
 excerpt: " "
 comments: false
 share: false
 tags:
-  - Web-hacking
-  - webhacking.kr
-  - write-up
-date: '2021-10-18 04:48:13'
+  - 잡담
+date: '2021-10-18 12:17:49'
 ---
 
 ## 이미지 삽입
