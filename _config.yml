@@ -47,6 +47,7 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
     input: GFM
+    syntax_highlighter: rouge
 
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults

@@ -31,6 +31,9 @@ bundle
 bundle exec jekyll serve
 ```
 
+## install 공통
+gem install kramdown rouge
+
 ## bundle install error 시 - window
 ```sh
 chcp 65001
