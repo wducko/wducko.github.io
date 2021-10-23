@@ -10,7 +10,7 @@ tags:
 date: '2021-10-23 12:31:57'
 ---
 
-<p><code class="language-plaintext highlighter-rouge">출처 - <a href="https://github.com/wducko/fastapi-simple-example">https://github.com/wducko/fastapi-simple-example</a></code></p>
+<p><code class="language-plaintext highlighter-rouge">소스코드 - <a href="https://github.com/wducko/fastapi-simple-example">https://github.com/wducko/fastapi-simple-example</a></code></p>
 
 ## 위 링크를 실행해보자
 실행하고 [localhost:8000/docs](localhost:8000/docs)에 들어가면 아래와 같이 나온다!  
