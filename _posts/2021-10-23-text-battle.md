@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! "text auto rpg를 만들어보자 (사실은 복붙..)"
+title: ! "text auto battle 를 만들어보자 (사실은 복붙..)"
 categories: [게임]
 excerpt: " "
 comments: false
