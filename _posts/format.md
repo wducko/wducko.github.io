@@ -19,5 +19,8 @@ date: '2021-10-24 23:28:54'
 ## 출처
 <p><code class="language-plaintext highlighter-rouge">출처 - <a href="url">url</a></code></p>
 
+## 출처2
+<p><code class="language-plaintext highlighter-rouge"><span style="display: inline-block;padding-right: 8px;">본래 소스 코드 출처 - </span><a href="url">url</a></code></p>
+
 ## iframe
 <iframe src="/assets/posts/game/auto-rpg-battle.html" style="width: 100%;height: 300px;"></iframe>
