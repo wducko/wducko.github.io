@@ -1,0 +1,85 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>돌려돌려 돌림판</title>
+    <link rel="stylesheet" type="text/css" href="./roulette.css">
+    <script type="text/javascript" src="./jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="./jquery.color-2.1.2.min.js"></script>
+    <style>
+        .container {
+            margin-top: 70px;
+        }
+        .wrap {
+            width: calc(6 * 81px);
+            height: calc(7 * 81px);
+        }
+        ul {
+            top: calc(1.2 * 81px);
+            left: calc(6 * 81px);
+        }
+    </style>
+</head>
+
+<body style="background: rgb(255, 255, 255);">
+    <div style="font-size: 26px;text-align: center;word-break: break-word;font-weight: 400;padding-top: 13px">
+        <button onclick="change_data([{'name':'덮덮밥'}, {'name':'버거킹'}, {'name':'떡볶이'}, {'name':'미소야'}, {'name':'호미스 피자'}, {'name':'꾸이한끼'}])" style="padding: 10px;">뭐먹지</button>
+        <button onclick="change_data([{'name':'AA'}, {'name':'BB'}, {'name':'CC'}, {'name':'DD'}])" style="padding: 10px;">A B C D</button>
+        <!-- <button onclick="change_data([{'name':''}, {'name':''}])" style="padding: 10px;">뭐먹지</button> -->
+    </div>
+
+    <div class="container">
+        <div class="wrap">
+            <h1 contenteditable="true" spellcheck="false">행운의 돌림판</h1>
+            <canvas width="450" height="450" class="roulette">지원하지 않는 브라우저입니다. Google Chrome 최신 버전을 사용해주세요.</canvas>
+            <div id="roll" class="button"></div>
+        </div>
+        <ul id="roulette-lists">
+            <li class="item empty" data-chance="0">
+				<div class="item-title" placeholder="이름" contenteditable="true"></div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li>
+        </ul>
+    </div>
+    <div id="button-tooltip" style="display: none;">
+        <div><span class="command">Alt + 클릭</span><span class="number">±100</span></div>
+        <div><span class="command">Ctrl + 클릭</span><span class="number">±10</span></div>
+        <div><span class="command">클릭</span><span class="number">±1</span></div>
+    </div>
+    <div id="result" style="display: none;" class="play">zxc</div>
+    <script type="text/javascript" src="./roulette.js"></script>
+
+
+
+
+
+    
+    <script>
+        function change_data(list) {
+            // document.getElementById('roulette-lists').innerHTML = '<li class="item" data-chance="33.33"style="background: linear-gradient(to right, rgb(33, 150, 243) 11%, rgba(0, 0, 0, 0) 0%);"><div class="item-title" placeholder="이름" contenteditable="true">끼야얏</div><div class="item-weight" data-weight="1"></div><div class="item-weight-add">+</div><div class="item-weight-sub">-</div><div class="item-delete">X</div></li><li class="item" data-chance="33.33"style="background: linear-gradient(to right, rgb(139, 195, 74) 11%, rgba(0, 0, 0, 0) 0%);"><div class="item-title" placeholder="이름" contenteditable="true">qwe</div><div class="item-weight" data-weight="1"></div><div class="item-weight-add">+</div><div class="item-weight-sub">-</div><div class="item-delete">X</div></li><li class="item" data-chance="33.33"style="background: linear-gradient(to right, rgb(255, 152, 0) 11%, rgba(0, 0, 0, 0) 0%);"><div class="item-title" placeholder="이름" contenteditable="true">zxc</div><div class="item-weight" data-weight="1"></div><div class="item-weight-add">+</div><div class="item-weight-sub">-</div><div class="item-delete">X</div></li><li class="item empty" data-chance="0"><div class="item-title" placeholder="이름" contenteditable="true"></div><div class="item-weight" data-weight="1"></div><div class="item-weight-add">+</div><div class="item-weight-sub">-</div><div class="item-delete">X</div></li>';
+            
+            let item_frame = "";
+            let last_item = `<li class="item empty" data-chance="0"><div class="item-title" placeholder="이름" contenteditable="true"></div><div class="item-weight" data-weight="1"></div><div class="item-weight-add">+</div><div class="item-weight-sub">-</div><div class="item-delete">X</div></li>`;
+
+            list.forEach((item, i) => {
+                item_frame += `
+                <li class="item" data-chance="${((1 / list.length) * 100).toFixed(2)}"
+                    style="background: linear-gradient(to right, ${getColor(i)} 11%, rgba(0, 0, 0, 0) 0%);">
+                    <div class="item-title" placeholder="이름" contenteditable="true">${item.name}</div>
+                    <div class="item-weight" data-weight="1"></div>
+                    <div class="item-weight-add">+</div>
+                    <div class="item-weight-sub">-</div>
+                    <div class="item-delete">X</div>
+                </li>`;
+            });
+
+            document.getElementById('roulette-lists').innerHTML = item_frame + last_item;
+	        updateData();
+        }
+    </script>
+</body>
+
+</html>
