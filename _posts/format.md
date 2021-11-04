@@ -6,8 +6,7 @@ excerpt: " "
 comments: false
 share: false
 tags:
-  - 잡담
-date: '2021-11-02 23:31:30'
+  - 잡담date: '2021-11-04 23:24:32'
 ---
 
 ## 이미지 삽입
