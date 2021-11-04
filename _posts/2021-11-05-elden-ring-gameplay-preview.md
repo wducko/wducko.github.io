@@ -1,0 +1,39 @@
+---
+layout: post
+title: ! "엘든링 게임플레이 프리뷰 소감"
+categories: [잡담]
+excerpt: " "
+comments: false
+share: false
+tags:
+  - 잡담
+date: '2021-11-05 06:13:05'
+---
+
+## 영상
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JldMvQMO_5U?start=866" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 흥미로웠던 부분
+1. 말을 탈 것으로 쓴다니!!
+2. 영혼 3개가 등장해서 적을 향해 공격하는 거.
+3. 보조 캐릭터가 등장해서. 같이 싸우는거?
+4. 비내리는 마법
+5. 로망!!! 할 버드
+6. 뭔가 흰색과 파란색의 중간지점인 색의 커다란 몬스터를 소환해서 적을 공격하게 하는 거
+
+## 실망한 부분
+1. 다크소울과 별반 달라보이지 않는 조작감
+2. 다크소울과 별반 달라보이지 않는 프레임 드랍  
+마치 다크소울1 최적화 안 된 버전을 보는 것 같은 프레임 드랍
+3. 많은 부분에서 연상되는 세키로?  
+왠지는 모르지만 세키로에서 봤던게 재탕된다는 느낌이 진하게 느껴져서 실망감이 들었다.
+
+## 총평
+스트리밍하는걸 좀 보고  
+흥미가 돋워지면 플레이해볼 것 같다.
+
+출시하자마자 무지성으로 달리지는 않을 것 같다.
+
+출시날에 휴가내고 달리면 30분도 안 해보고 끄거나  
+스트리머들 하는거 구경하는 쪽으로 노선을 변경할 것 같다.  
+`달리말하면 게임을 그냥 하는 것만으로는 게임재미를 못 찾을 것 같이 생겨먹었다는 소리이다.`
