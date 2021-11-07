@@ -7,7 +7,7 @@ comments: false
 share: false
 tags:
   - 잡담
-date: '2021-11-07 20:57:53'
+date: '2021-11-07 23:23:41'
 ---
 
 ## 이미지 삽입
@@ -24,3 +24,9 @@ date: '2021-11-07 20:57:53'
 
 ## iframe
 <iframe src="/assets/posts/game/auto-rpg-battle.html" style="width: 100%;height: 300px;"></iframe>
+
+## 등간격 영어 폰트
+cascadia
+
+## 체크박스
+2021-11-07-simple-mbti.md
