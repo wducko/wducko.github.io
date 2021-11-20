@@ -52,3 +52,14 @@ xcode 설치 해야함.
 1. posting..
 2. cmd 오픈
 3. p "\<commit message\>"
+
+## trable shooting
+```sh
+An error occurred while installing commonmarker (0.17.13), and Bundler cannot continue.
+Make sure that `gem install commonmarker -v '0.17.13' --source 'https://rubygems.org/'` succeeds before
+bundling.
+```
+`mac`에서 에러가 난다면  
+```sh
+xcode-select --install
+```\
