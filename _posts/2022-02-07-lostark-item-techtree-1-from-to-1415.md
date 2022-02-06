@@ -1,12 +1,11 @@
 ---
 layout: post
 title: ! "로스트아크 아이템 테크트리 1 ~ 1415"
-categories: [lostark, 로스트아크]
+categories: [로스트아크]
 excerpt: " "
 comments: false
 share: false
 tags:
-  - lostark
   - 로스트아크
 date: '2022-02-07 01:00:32'
 ---
