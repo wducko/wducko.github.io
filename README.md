@@ -63,3 +63,8 @@ bundling.
 ```sh
 xcode-select --install
 ```
+
+## 포스팅 팁
+로컬에서는 잘 보이는 포스트가  
+github에 올렸을 때 보이지 않는다면  
+header에 date를 created_at로 변경하거나 header들을 없애보기
