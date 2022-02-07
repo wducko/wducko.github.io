@@ -1,12 +1,12 @@
 ---
 layout: post
 title: ! "윈도우 무료 월페이퍼 엔진(Wallpaper engine)"
-categories: [잡담]
+categories: [컴퓨터]
 excerpt: " "
 comments: false
 share: false
 tags:
-  - 잡담
+  - 컴퓨터
 created_at: '2022-02-07 17:36:43'
 ---
 
