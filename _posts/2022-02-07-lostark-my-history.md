@@ -7,6 +7,7 @@ comments: false
 share: false
 tags:
   - 로스트아크
+created_at: '2022-02-07 01:00:31'
 ---
 
 ## 잡담
