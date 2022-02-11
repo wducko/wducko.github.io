@@ -7,8 +7,8 @@ comments: false
 share: false
 tags:
   - 잡담
-# date: '2022-02-07 17:36:43'
-created_at: '2022-02-07 17:36:43'
+# date: '2022-02-11 19:57:14'
+created_at: '2022-02-11 19:57:14'
 ---
 
 ## 이미지 삽입
@@ -31,3 +31,6 @@ cascadia
 
 ## 체크박스
 2021-11-07-simple-mbti.md
+
+## 영상
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JldMvQMO_5U?start=866" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
